@@ -15,9 +15,6 @@ a {
 h1, h2, h3, h4, p { /*removing the default padding*/
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat Subrayada', sans-serif;
-    font-family: 'Patua One', serif;
-    font-family: 'Roboto', sans-serif;
 }
 p, h3 { /*change default margin*/
     margin-bottom: 1em; 
@@ -27,18 +24,12 @@ h1, h2 { /*change default margin*/
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CSS Start~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-/* Avoid this reset */
-/* this reset can be used in a pinch, but should not be used on production websites because it will remove margin and padding from all elements and might mess up some elements, such as form elements. Can be ok to use for a small example file, but not on an actual website. */
 
-/* {
-    margin: 0;
-    padding: 0;
-}*/
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~Media Queries~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 @media screen and (max-width: 767px) {
-                /*Rules for small screens here*/
                 /* Rules in here will apply if screens smaller than 768px(phone) */
     body{
     min-width: 350px;
