@@ -38,23 +38,23 @@ h1, h2 { /*change default margin*/
     background-size:cover;
     background-attachment: fixed;
 }
-    main {
+    #category-page {
     background-color: #00ccff;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1022px) {
 				/* Rules for medium-sized screens here */
-				/* Rules in here will apply if screens is between 768px and 1024px (tablet) */
-	main {
+				/* Rules in here will apply if screens is between 768px and 1022px (tablet) */
+	#category-page {
 	background-color: #00ff2a;
 	}
 }
 
 @media screen and (min-width: 1023px) {
-				/* Rules in here will apply if screens is than 1024px (desktops) */
+				/* Rules in here will apply if screens is larger than 1024px (desktops) */
 				/*should go at the bottom of your CSS file*/
-	main {
+	#category-page { 
 	background-color: #5200e1;
 	}
 }
